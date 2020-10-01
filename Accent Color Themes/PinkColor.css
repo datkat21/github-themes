@@ -1,0 +1,45 @@
+/* i tried lol*/
+
+.UnderlineNav-item.selected,
+.UnderlineNav-item[aria-current]:not([aria-current="false"]),
+.UnderlineNav-item[role="tab"][aria-selected="true"] {
+    border-bottom-color: rgb(255, 15, 219);
+    outline-color: transparent;
+}
+
+.btn-primary.hover,
+.btn-primary:hover,
+[open] > .btn-primary {
+    background-color: rgb(255, 15, 219);
+}
+
+a{
+    color: rgb(255, 15, 219);
+}
+
+.text-green
+{
+    fill: rgb(255, 15, 219);
+}
+
+.text-gray-dark {
+	color: #ff0fdb;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #c400d9;
+    border-color: rgba(27, 31, 35, .15);
+    box-shadow: 0 1px 0 rgba(27, 31, 35, .1), inset 0 1px 0 hsla(0, 0%, 100%, .03);
+}
+
+
+.filter-item.selected, .filter-item[aria-current]:not([aria-current="false"]), .filter-item[aria-selected="true"] {
+	color: #fff;
+	background-color: #c400d9;
+}
+
+.filter-item.selected:hover, .filter-item:hover[aria-current]:not([aria-current="false"]), .filter-item:hover[aria-selected="true"] {
+	color: #fff;
+	background-color: #e600ff;
+}
